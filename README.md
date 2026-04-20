@@ -24,8 +24,8 @@ A selection of projects featured in this portfolio:
 * [cite_start]**BSc in Software Engineering** – Instituto Superior Técnico, Lisbon[cite: 85, 86].
 
 ## 📬 Get in Touch
-* **LinkedIn:** [linkedin.com/in/santiago-rocha](https://linkedin.com) (ajusta com o teu link)
-* **Email:** (adiciona o teu email se desejares)
+* **LinkedIn:** [linkedin.com/in/santiago-rocha](https://www.linkedin.com/in/santiago-rocha-37779a3a1/) 
+* **Email:** santiagoarocha07@gmail.com
 
 ---
 [cite_start]*“I believe knowledge gains true value when it is built and shared as a team.”* [cite: 24]
