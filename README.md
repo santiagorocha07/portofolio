@@ -16,11 +16,12 @@ This repository contains the source code for my personal portfolio website, buil
 
 ## 📁 Projects Overview
 A selection of projects featured in this portfolio:
-**AI Research Agent:** Autonomous assistant using Llama-3.3 (Groq) and LangChain.
-**Scrabble Game Engine:** Academic project focused on structured programming and logic.
+* **AI Research Agent:** Autonomous assistant using Llama-3.3 (Groq) and LangChain.
+* **Newegg GPU Scraper:** Market tracking utility built with Python and BS4.
+* **Scrabble Game Engine:** Academic project focused on structured programming and logic.
 
 ## 🎓 Education
-**BSc in Software Engineering** – Instituto Superior Técnico, Lisbon.
+**BSc in Software Engineering** – Instituto Superior Técnico, Lisbon[cite: 85, 86].
 
 ## 📬 Get in Touch
 * **LinkedIn:** [linkedin.com/in/santiago-rocha](https://www.linkedin.com/in/santiago-rocha-37779a3a1/) 
