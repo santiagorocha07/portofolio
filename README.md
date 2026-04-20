@@ -21,7 +21,7 @@ A selection of projects featured in this portfolio:
 * **Scrabble Game Engine:** Academic project focused on structured programming and logic.
 
 ## 🎓 Education
-**BSc in Software Engineering** – Instituto Superior Técnico, Lisbon[cite: 85, 86].
+**BSc in Software Engineering** – Instituto Superior Técnico, Lisbon.
 
 ## 📬 Get in Touch
 * **LinkedIn:** [linkedin.com/in/santiago-rocha](https://www.linkedin.com/in/santiago-rocha-37779a3a1/) 
