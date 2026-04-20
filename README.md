@@ -28,4 +28,4 @@ A selection of projects featured in this portfolio:
 * **Email:** santiagoarocha07@gmail.com
 
 ---
-[cite_start]*“I believe knowledge gains true value when it is built and shared as a team.”* [cite: 24]
+
