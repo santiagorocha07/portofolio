@@ -1,4 +1,3 @@
-// Add background to the header nav after scrolling down
 const header = document.querySelector('header');
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
@@ -10,7 +9,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Ensure smooth scrolling fallback in older browsers
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();

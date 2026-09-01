@@ -6,9 +6,11 @@
     --text-muted: #2d5440;
     --primary-green: #113824;
     --accent-green: #1c5e39;
-    --glass-bg: rgba(255, 255, 255, 0.82);
-    --glass-border: rgba(17, 56, 36, 0.12);
-    --glass-border-hover: rgba(17, 56, 36, 0.28);
+    --card-bg: #ffffff;
+    --card-border: rgba(17, 56, 36, 0.10);
+    --card-border-hover: rgba(17, 56, 36, 0.22);
+    --glass-bg: rgba(255, 255, 255, 0.92);
+    --glass-border: rgba(17, 56, 36, 0.10);
     --tag-bg: #e5f0e8;
     --tag-text: #0e2a1d;
     --scroll-track: #edf3ee;
@@ -20,45 +22,31 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .font-mono {
     font-family: 'Fira Code', monospace;
 }
 
-/* Glassmorphism Effect for Light Theme */
-.glass {
+.glass-nav {
     background: var(--glass-bg);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-    border: 1px solid var(--glass-border);
-    box-shadow: 0 4px 18px -2px rgba(17, 56, 36, 0.05), 0 2px 6px -1px rgba(17, 56, 36, 0.03);
-    transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--glass-border);
+    box-shadow: 0 1px 8px -2px rgba(17, 56, 36, 0.06);
 }
 
-.glass:hover {
-    border-color: var(--glass-border-hover);
+.card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Animated blob background */
-.blob-bg {
-    position: absolute;
-    filter: blur(90px);
-    z-index: -1;
-    opacity: 0.45;
-    mix-blend-mode: multiply;
-    animation: float 14s ease-in-out infinite;
+.card:hover {
+    border-color: var(--card-border-hover);
+    box-shadow: 0 4px 16px -4px rgba(17, 56, 36, 0.08);
 }
 
-@keyframes float {
-    0% { transform: translate(0px, 0px) scale(1); }
-    33% { transform: translate(30px, -50px) scale(1.08); }
-    66% { transform: translate(-20px, 20px) scale(0.92); }
-    100% { transform: translate(0px, 0px) scale(1); }
-}
-
-/* Custom scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
 }

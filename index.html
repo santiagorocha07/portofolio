@@ -5,235 +5,184 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santiago Rocha | Portfolio</title>
     
-    <!-- Meta tags for SEO & Sharing -->
-    <meta name="description" content="Santiago Rocha's Portfolio - Software Engineering student at IST & Software Developer at SINFO. Developer passionate about programming and systems.">
+    <meta name="description" content="Santiago Rocha's Portfolio - Software Engineering student at IST & Software Developer at SINFO.">
     <meta name="author" content="Santiago Rocha">
     
-    <!-- Tailwind CSS (CDN for zero-setup execution) & Custom Styles -->
     <link href="./style.css" rel="stylesheet">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
     
-    <!-- FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="antialiased selection:bg-[#0e2a1d] selection:text-[#f6f8f5] text-[#0e2a1d] relative overflow-x-hidden">
+<body class="antialiased text-[#0e2a1d] overflow-x-hidden bg-[#f6f8f5]">
 
-    <!-- Background Elements (Soft Mint & Sage Blobs) -->
-    <div class="blob-bg top-[-5%] left-[-10%] w-120 h-120 bg-[#cde6d6] rounded-full"></div>
-    <div class="blob-bg top-[20%] right-[-10%] w-140 h-140 bg-[#d8ecde] rounded-full" style="animation-delay: -3s;"></div>
-    <div class="blob-bg top-[55%] left-[-8%] w-110 h-110 bg-[#cae5d4] rounded-full" style="animation-delay: -7s;"></div>
-    <div class="blob-bg bottom-[-5%] right-[10%] w-100 h-100 bg-[#d2eada] rounded-full" style="animation-delay: -5s;"></div>
-
-    <!-- Sticky Navigation -->
-    <header class="fixed top-0 w-full z-50 glass transition-all duration-300 border-b-0">
+    <header class="fixed top-0 w-full z-50 glass-nav">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#home" class="text-xl font-bold font-mono tracking-tighter text-[#0e2a1d] hover:text-[#1c5e39] transition-colors">
                 &gt; Santiago Rocha
             </a>
             <nav class="hidden md:flex gap-10 lg:gap-14 text-sm font-medium text-[#2d5440] items-center">
-                <a href="#about" class="hover:text-[#0e2a1d] font-semibold transition-all transform hover:-translate-y-0.5 duration-200">About</a>
-                <a href="#skills" class="hover:text-[#0e2a1d] font-semibold transition-all transform hover:-translate-y-0.5 duration-200">Skills</a>
-                <a href="#projects" class="hover:text-[#0e2a1d] font-semibold transition-all transform hover:-translate-y-0.5 duration-200">Projects</a>
-                <a href="#education" class="hover:text-[#0e2a1d] font-semibold transition-all transform hover:-translate-y-0.5 duration-200">Education & Exp</a>
-                <a href="#hobbies" class="hover:text-[#0e2a1d] font-semibold transition-all transform hover:-translate-y-0.5 duration-200">Hobbies</a>
+                <a href="#about" class="hover:text-[#0e2a1d] font-semibold transition-colors duration-200">About</a>
+                <a href="#skills" class="hover:text-[#0e2a1d] font-semibold transition-colors duration-200">Skills</a>
+                <a href="#projects" class="hover:text-[#0e2a1d] font-semibold transition-colors duration-200">Projects</a>
+                <a href="#education" class="hover:text-[#0e2a1d] font-semibold transition-colors duration-200">Education & Exp</a>
+                <a href="#hobbies" class="hover:text-[#0e2a1d] font-semibold transition-colors duration-200">Hobbies</a>
             </nav>
             <div class="flex items-center gap-4">
-                <a href="#contact" class="px-5 py-2 rounded-full border border-[#113824]/30 hover:bg-[#0e2a1d] hover:text-white text-[#0e2a1d] transition-all text-sm font-semibold shadow-xs">
+                <a href="#contact" class="px-5 py-2 rounded-full border border-[#113824]/30 hover:bg-[#0e2a1d] hover:text-white text-[#0e2a1d] transition-all text-sm font-semibold">
                     Contact
                 </a>
             </div>
         </div>
     </header>
 
-    <main class="relative z-10 max-w-6xl mx-auto px-6 pt-32 pb-20">
+    <main class="max-w-6xl mx-auto px-6 pt-32 pb-20">
         
-        <!-- Hero Section -->
         <section id="home" class="min-h-[85vh] flex flex-col justify-center items-start">
-            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#e3efe6] border border-[#c1deca] text-[#0e2a1d] font-mono text-xs font-semibold mb-6">
-                <span class="w-2 h-2 rounded-full bg-[#1c5e39] animate-pulse"></span>
-                Software Engineering @ IST &bull; SINFO Software Dev
-            </div>
-            <p class="text-[#2d5440] font-mono mb-3 pl-1 text-base">Hello world! My name is</p>
-            <h1 class="text-5xl sm:text-7xl lg:text-8xl font-extrabold pb-2 tracking-tight mb-4 text-transparent bg-clip-text bg-linear-to-r from-[#0e2a1d] via-[#144229] to-[#256f46] drop-shadow-xs">
+            <p class="text-[#2d5440] font-mono mb-3 pl-1 text-base">Hello, my name is</p>
+            <h1 class="text-5xl sm:text-7xl lg:text-8xl font-extrabold pb-2 tracking-tight mb-4 text-[#0e2a1d]">
                 Santiago Rocha.
             </h1>
             <h2 class="text-2xl sm:text-4xl lg:text-5xl font-bold text-[#2d5440] mb-8 max-w-4xl tracking-tight leading-tight">
-                Software Engineering student at Técnico & <br class="hidden md:block"/> Software Developer at SINFO.
+                Software Engineering student at Técnico &<br class="hidden md:block"/> Software Developer at SINFO.
             </h2>
-            <p class="max-w-2xl text-lg text-[#1e4431] leading-relaxed mb-10 border-l-2 border-[#1c5e39] pl-4 font-normal">
-                I'm a 2nd-year Software Engineering student at <span class="text-[#0e2a1d] font-bold">IST</span> and work in <span class="text-[#0e2a1d] font-bold">Software Development at SINFO</span>. Passionate about programming, systems, and tech support, I transform logic into efficient tools with a strong command of the <span class="text-[#0e2a1d] font-mono text-sm px-1.5 py-0.5 bg-[#e1eee4] border border-[#badbc4] rounded font-semibold">macOS</span> terminal.
+            <p class="max-w-2xl text-lg text-[#1e4431] leading-relaxed mb-10 border-l-2 border-[#1c5e39] pl-4">
+                2nd-year Software Engineering student at <span class="text-[#0e2a1d] font-bold">IST</span>, working in Software Development at <span class="text-[#0e2a1d] font-bold">SINFO</span>. I build tools, automate things, and spend a lot of time in the <span class="font-mono text-sm px-1.5 py-0.5 bg-[#e1eee4] border border-[#badbc4] rounded">terminal</span>.
             </p>
             <div class="flex flex-wrap gap-4">
-                <a href="#projects" class="px-8 py-4 bg-[#0e2a1d] text-white rounded-xl font-medium transition-all shadow-md hover:bg-[#1c5e39] hover:shadow-lg hover:-translate-y-1 flex items-center gap-2">
+                <a href="#projects" class="px-8 py-4 bg-[#0e2a1d] text-white rounded-xl font-medium transition-colors shadow-sm hover:bg-[#1c5e39] flex items-center gap-2">
                     Explore Projects <i class="fas fa-arrow-down text-sm"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/santiago-rocha-37779a3a1/" target="_blank" class="px-8 py-4 glass text-[#0e2a1d] rounded-xl font-medium transition-all hover:bg-[#e4efe7] hover:-translate-y-1 flex items-center gap-3 border border-[#113824]/20">
+                <a href="https://www.linkedin.com/in/santiago-rocha-37779a3a1/" target="_blank" class="px-8 py-4 bg-white text-[#0e2a1d] rounded-xl font-medium transition-colors hover:bg-[#e4efe7] flex items-center gap-3 border border-[#113824]/20">
                     <i class="fab fa-linkedin text-xl text-[#1c5e39]"></i> LinkedIn
                 </a>
             </div>
         </section>
 
-        <!-- About Me Section -->
-        <section id="about" class="py-24">
-            <div class="flex items-center gap-4 mb-12">
+        <section id="about" class="py-20">
+            <div class="flex items-center gap-4 mb-10">
                 <span class="text-[#1c5e39] font-mono text-xl font-bold">01.</span>
                 <h3 class="text-3xl font-bold text-[#0e2a1d]">About Me</h3>
                 <div class="h-px bg-[#113824]/20 flex-1 ml-2 max-w-xs"></div>
             </div>
             
             <div class="grid md:grid-cols-2 gap-12 text-[#1f4532] text-[1.05rem] leading-relaxed">
-                <div class="space-y-5 font-normal">
+                <div class="space-y-5">
                     <p>
-                        My journey in technology started with a curiosity to understand how systems work "under the hood". This naturally led me to enroll in <span class="text-[#0e2a1d] font-bold">Software Engineering</span> at Instituto Superior Técnico.
+                        My interest in technology started with wanting to understand how systems work at a low level. That led me to enroll in <span class="text-[#0e2a1d] font-bold">Software Engineering</span> at Instituto Superior Técnico.
                     </p>
                     <p>
-                        Alongside my academic path, I work in the <span class="text-[#0e2a1d] font-bold">Software Development</span> team at <span class="text-[#0e2a1d] font-bold">SINFO</span> (Semana de Informática at IST), actively building and maintaining tech platforms for one of Portugal's premier student-driven tech conferences while continuing my studies.
+                        Alongside my degree, I work in the <span class="text-[#0e2a1d] font-bold">Software Development</span> team at <span class="text-[#0e2a1d] font-bold">SINFO</span> — building and maintaining the platforms that run one of Portugal's largest student tech conferences.
                     </p>
                     <p>
-                        Beyond writing code and building software (like AI agents or Python scrapers), I am highly interested in <strong>systems administration</strong>. As a power user of <span class="text-[#0e2a1d] font-semibold">macOS</span> and <span class="text-[#0e2a1d] font-semibold">iTerm</span>, I enjoy designing and managing efficient environments via the command line.
+                        Outside writing code, I spend time on systems administration. I use <span class="text-[#0e2a1d] font-semibold">macOS</span> and <span class="text-[#0e2a1d] font-semibold">iTerm</span> daily, and I'm comfortable managing environments from the command line.
                     </p>
                     <p>
-                        I strongly believe knowledge gains true value when it is built, shared, and applied as a team.
+                        I work well in teams — I think software is most useful when it's built and maintained collaboratively.
                     </p>
                 </div>
                 
-                <div class="glass p-8 rounded-2xl relative group h-fit border border-[#113824]/15 hover:border-[#113824]/30 transition-all">
-                    <div class="absolute inset-0 bg-linear-to-br from-[#eaf4ed]/60 to-[#dceee2]/40 rounded-2xl -z-10"></div>
-                    <div class="relative z-10">
-                        <h4 class="text-xl font-bold text-[#0e2a1d] mb-6 flex items-center gap-2">
-                            <i class="fas fa-bullseye text-[#1c5e39]"></i> Focus & Involvement
-                        </h4>
-                        <ul class="space-y-5">
-                            <li class="flex items-start gap-4">
-                                <div class="p-2.5 bg-[#e1efe5] rounded-xl text-[#1c5e39] mt-0.5 border border-[#badbc4]">
-                                    <i class="fas fa-code-branch"></i>
-                                </div>
-                                <div>
-                                    <strong class="text-[#0e2a1d] block mb-1">Software Development @ SINFO</strong>
-                                    <span class="text-sm text-[#2d5440]">Developing web applications, internal tools, and tech infrastructure for SINFO (IST).</span>
-                                </div>
-                            </li>
-                            <li class="flex items-start gap-4">
-                                <div class="p-2.5 bg-[#e1efe5] rounded-xl text-[#1c5e39] mt-0.5 border border-[#badbc4]">
-                                    <i class="fas fa-comments"></i>
-                                </div>
-                                <div>
-                                    <strong class="text-[#0e2a1d] block mb-1">Communication & Support</strong>
-                                    <span class="text-sm text-[#2d5440]">Strong interpersonal skills for technical support, problem-solving, and efficient interaction with diverse teams.</span>
-                                </div>
-                            </li>
-                            <li class="flex items-start gap-4">
-                                <div class="p-2.5 bg-[#e1efe5] rounded-xl text-[#1c5e39] mt-0.5 border border-[#badbc4]">
-                                    <i class="fas fa-lightbulb"></i>
-                                </div>
-                                <div>
-                                    <strong class="text-[#0e2a1d] block mb-1">Practical Application</strong>
-                                    <span class="text-sm text-[#2d5440]">Combining solid academic foundations at IST with hands-on software development to tackle real challenges.</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="card p-8 rounded-2xl h-fit">
+                    <h4 class="text-xl font-bold text-[#0e2a1d] mb-6">Focus & Involvement</h4>
+                    <ul class="space-y-6">
+                        <li>
+                            <strong class="text-[#0e2a1d] block mb-1">Software Development @ SINFO</strong>
+                            <span class="text-sm text-[#2d5440]">Web apps, internal tools, and tech infrastructure for SINFO (IST).</span>
+                        </li>
+                        <li class="border-t border-[#113824]/10 pt-6">
+                            <strong class="text-[#0e2a1d] block mb-1">Communication & Support</strong>
+                            <span class="text-sm text-[#2d5440]">Technical support, problem-solving, and clear communication across teams.</span>
+                        </li>
+                        <li class="border-t border-[#113824]/10 pt-6">
+                            <strong class="text-[#0e2a1d] block mb-1">Practical Application</strong>
+                            <span class="text-sm text-[#2d5440]">Applying IST's academic foundation to real-world software challenges.</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
 
-        <!-- Skills Section -->
-        <section id="skills" class="py-24">
-            <div class="flex items-center gap-4 mb-12">
+        <section id="skills" class="py-20">
+            <div class="flex items-center gap-4 mb-10">
                 <span class="text-[#1c5e39] font-mono text-xl font-bold">02.</span>
                 <h3 class="text-3xl font-bold text-[#0e2a1d]">Technical Skills</h3>
                 <div class="h-px bg-[#113824]/20 flex-1 ml-2 max-w-xs"></div>
             </div>
 
             <div class="grid md:grid-cols-2 gap-8">
-                <!-- Stack Programming -->
-                <div class="glass p-8 rounded-2xl border border-[#113824]/15 hover:border-[#113824]/30 transition-all">
-                    <h4 class="text-xl font-bold mb-8 text-[#0e2a1d] flex items-center justify-between">
-                        <span class="flex items-center gap-3"><i class="fas fa-code text-[#1c5e39]"></i> Development</span>
-                    </h4>
+                <div class="card p-8 rounded-2xl">
+                    <h4 class="text-xl font-bold mb-8 text-[#0e2a1d]">Development</h4>
                     
                     <div class="space-y-5">
-                        <!-- Python -->
                         <div>
                             <div class="flex justify-between text-sm mb-1.5 font-medium">
                                 <span class="font-mono text-[#0e2a1d] font-semibold">Python</span>
                                 <span class="font-mono text-[#2d5440] text-xs">Advanced</span>
                             </div>
-                            <div class="w-full bg-[#dbe8de] rounded-full h-2.5">
-                                <div class="bg-[#1c5e39] h-2.5 rounded-full" style="width: 90%"></div>
+                            <div class="w-full bg-[#dbe8de] rounded-full h-2">
+                                <div class="bg-[#1c5e39] h-2 rounded-full" style="width: 90%"></div>
                             </div>
                         </div>
-                        <!-- C -->
                         <div>
                             <div class="flex justify-between text-sm mb-1.5 font-medium">
                                 <span class="font-mono text-[#0e2a1d] font-semibold">C</span>
                                 <span class="font-mono text-[#2d5440] text-xs">Intermediate</span>
                             </div>
-                            <div class="w-full bg-[#dbe8de] rounded-full h-2.5">
-                                <div class="bg-[#1c5e39] h-2.5 rounded-full" style="width: 65%"></div>
+                            <div class="w-full bg-[#dbe8de] rounded-full h-2">
+                                <div class="bg-[#1c5e39] h-2 rounded-full" style="width: 65%"></div>
                             </div>
                         </div>
-                        <!-- Frontend (HTML/CSS/JS) -->
                         <div>
                             <div class="flex justify-between text-sm mb-1.5 font-medium">
                                 <span class="font-mono text-[#0e2a1d] font-semibold">HTML / CSS / JavaScript</span>
                                 <span class="font-mono text-[#2d5440] text-xs">Proficient</span>
                             </div>
-                            <div class="w-full bg-[#dbe8de] rounded-full h-2.5">
-                                <div class="bg-[#1c5e39] h-2.5 rounded-full" style="width: 85%"></div>
+                            <div class="w-full bg-[#dbe8de] rounded-full h-2">
+                                <div class="bg-[#1c5e39] h-2 rounded-full" style="width: 85%"></div>
                             </div>
                         </div>
-                        <!-- React -->
                         <div>
                             <div class="flex justify-between text-sm mb-1.5 font-medium">
                                 <span class="font-mono text-[#0e2a1d] font-semibold">React</span>
                                 <span class="font-mono text-[#2d5440] text-xs">Intermediate</span>
                             </div>
-                            <div class="w-full bg-[#dbe8de] rounded-full h-2.5">
-                                <div class="bg-[#1c5e39] h-2.5 rounded-full" style="width: 75%"></div>
+                            <div class="w-full bg-[#dbe8de] rounded-full h-2">
+                                <div class="bg-[#1c5e39] h-2 rounded-full" style="width: 75%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Environment & Tools -->
-                <div class="glass p-8 rounded-2xl border border-[#113824]/15 hover:border-[#113824]/30 transition-all">
-                    <h4 class="text-xl font-bold mb-8 text-[#0e2a1d] flex items-center gap-3">
-                        <i class="fas fa-terminal text-[#1c5e39]"></i> Environment & Systems
-                    </h4>
+                <div class="card p-8 rounded-2xl">
+                    <h4 class="text-xl font-bold mb-8 text-[#0e2a1d]">Environment & Systems</h4>
                     
-                    <div class="grid grid-cols-2 gap-4">
-                        <div class="p-5 border border-[#badbc4] rounded-xl bg-[#eaf4ed]/60 flex flex-col items-center justify-center gap-2 hover:bg-[#e1eee4] hover:border-[#1c5e39] transition-all group">
-                            <i class="fab fa-apple text-3xl text-[#1c5e39] group-hover:scale-110 transition-transform"></i>
+                    <ul class="space-y-4">
+                        <li class="flex items-center justify-between py-2 border-b border-[#113824]/08">
                             <span class="font-mono text-sm font-semibold text-[#0e2a1d]">macOS</span>
-                        </div>
-                        <div class="p-5 border border-[#badbc4] rounded-xl bg-[#eaf4ed]/60 flex flex-col items-center justify-center gap-2 hover:bg-[#e1eee4] hover:border-[#1c5e39] transition-all group">
-                            <i class="fas fa-terminal text-3xl text-[#1c5e39] group-hover:scale-110 transition-transform"></i>
+                            <span class="text-xs text-[#2d5440]">Daily driver</span>
+                        </li>
+                        <li class="flex items-center justify-between py-2 border-b border-[#113824]/08">
                             <span class="font-mono text-sm font-semibold text-[#0e2a1d]">Command Line</span>
-                        </div>
-                        <div class="p-5 border border-[#badbc4] rounded-xl bg-[#eaf4ed]/60 flex flex-col items-center justify-center gap-2 hover:bg-[#e1eee4] hover:border-[#1c5e39] transition-all group">
-                            <i class="fas fa-window-maximize text-3xl text-[#1c5e39] group-hover:scale-110 transition-transform"></i>
+                            <span class="text-xs text-[#2d5440]">Advanced</span>
+                        </li>
+                        <li class="flex items-center justify-between py-2 border-b border-[#113824]/08">
                             <span class="font-mono text-sm font-semibold text-[#0e2a1d]">iTerm</span>
-                        </div>
-                        <div class="p-5 border border-[#badbc4] rounded-xl bg-[#eaf4ed]/60 flex flex-col items-center justify-center gap-2 hover:bg-[#e1eee4] hover:border-[#1c5e39] transition-all group">
-                            <i class="fas fa-code text-3xl text-[#1c5e39] group-hover:scale-110 transition-transform"></i>
+                            <span class="text-xs text-[#2d5440]">Power user</span>
+                        </li>
+                        <li class="flex items-center justify-between py-2">
                             <span class="font-mono text-sm font-semibold text-[#0e2a1d]">VS Code</span>
-                        </div>
-                    </div>
+                            <span class="text-xs text-[#2d5440]">Primary editor</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             
-            <!-- Language Row -->
-            <div class="mt-8 relative overflow-hidden glass rounded-2xl p-6 border-l-4 border-l-[#1c5e39] border border-[#113824]/15 flex flex-col md:flex-row md:items-center justify-between gap-6">
-                <div class="z-10 shrink-0">
-                    <h4 class="text-[#0e2a1d] font-bold text-lg flex items-center gap-2">
-                        <i class="fas fa-globe-americas text-[#1c5e39]"></i> Languages
-                    </h4>
+            <div class="mt-8 card rounded-2xl p-6 border-l-4 border-l-[#1c5e39] flex flex-col md:flex-row md:items-center justify-between gap-6">
+                <div class="shrink-0">
+                    <h4 class="text-[#0e2a1d] font-bold text-lg">Languages</h4>
                 </div>
-                <div class="z-10 flex flex-wrap gap-8 w-full justify-start md:justify-around text-sm">
+                <div class="flex flex-wrap gap-8 w-full justify-start md:justify-around text-sm">
                     <div class="flex items-center gap-3">
                         <div class="w-10 h-10 rounded-full bg-[#e1efe5] flex items-center justify-center border border-[#badbc4] text-[#0e2a1d] font-bold font-mono">PT</div>
                         <div>
@@ -252,225 +201,189 @@
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="py-24">
-            <div class="flex items-center gap-4 mb-12">
+        <section id="projects" class="py-20">
+            <div class="flex items-center gap-4 mb-10">
                 <span class="text-[#1c5e39] font-mono text-xl font-bold">03.</span>
                 <h3 class="text-3xl font-bold text-[#0e2a1d]">Featured Projects</h3>
                 <div class="h-px bg-[#113824]/20 flex-1 ml-2 max-w-48"></div>
             </div>
 
-            <div class="grid lg:grid-cols-3 gap-8">
-                <!-- Project 1 -->
-                <div class="glass rounded-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col h-full group border border-[#113824]/15 hover:border-[#1c5e39]/50 hover:shadow-xl relative overflow-hidden">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-transparent via-[#1c5e39] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div class="p-8 flex flex-col h-full z-10">
-                        <div class="flex justify-between items-center mb-6">
-                            <div class="p-3.5 bg-[#e1efe5] rounded-xl border border-[#badbc4] text-[#1c5e39]">
-                                <i class="fas fa-robot text-2xl"></i>
-                            </div>
-                            <a href="https://github.com/santiagorocha07" target="_blank" class="text-[#2d5440] hover:text-[#0e2a1d] transition-colors" title="GitHub Repository"><i class="fab fa-github text-2xl"></i></a>
+            <div class="grid lg:grid-cols-3 gap-6">
+                <div class="card rounded-2xl flex flex-col h-full">
+                    <div class="p-8 flex flex-col h-full">
+                        <div class="flex justify-between items-start mb-6">
+                            <h4 class="text-xl font-bold text-[#0e2a1d]">AI Research Agent</h4>
+                            <a href="https://github.com/santiagorocha07" target="_blank" class="text-[#2d5440] hover:text-[#0e2a1d] transition-colors ml-4 shrink-0" title="GitHub Repository">
+                                <i class="fab fa-github text-xl"></i>
+                            </a>
                         </div>
-                        <h4 class="text-2xl font-bold text-[#0e2a1d] mb-3 group-hover:text-[#1c5e39] transition-colors">AI Research Agent</h4>
-                        <p class="text-[#2d5440] text-[0.95rem] mb-6 flex-1 font-normal leading-relaxed">
-                            Autonomous research assistant capable of creating exhaustive reports. Integrates powerful <strong>Llama-3.3 (Groq)</strong> models with tools via <strong>LangChain</strong>. Includes a ReAct agent that decides between Web or Wikipedia and formats JSON responses using Pydantic.
+                        <p class="text-[#2d5440] text-sm mb-6 flex-1 leading-relaxed">
+                            Autonomous research assistant that produces detailed reports. Uses <strong>Llama-3.3 (Groq)</strong> via <strong>LangChain</strong> with a ReAct agent that chooses between Web and Wikipedia search, returning structured JSON via Pydantic.
                         </p>
                         <div class="flex flex-wrap gap-2 text-xs font-mono text-[#0e2a1d] mt-auto">
-                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded-md font-medium">Python</span>
-                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded-md font-medium">LangChain</span>
-                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded-md font-medium">LLMs</span>
+                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded font-medium">Python</span>
+                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded font-medium">LangChain</span>
+                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded font-medium">LLMs</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2 -->
-                <div class="glass rounded-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col h-full group border border-[#113824]/15 hover:border-[#1c5e39]/50 hover:shadow-xl relative overflow-hidden">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-transparent via-[#1c5e39] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div class="p-8 flex flex-col h-full z-10">
-                        <div class="flex justify-between items-center mb-6">
-                            <div class="p-3.5 bg-[#e1efe5] rounded-xl border border-[#badbc4] text-[#1c5e39]">
-                                <i class="fas fa-microchip text-2xl"></i>
-                            </div>
-                            <a href="https://github.com/santiagorocha07" target="_blank" class="text-[#2d5440] hover:text-[#0e2a1d] transition-colors" title="GitHub Repository"><i class="fab fa-github text-2xl"></i></a>
+                <div class="card rounded-2xl flex flex-col h-full">
+                    <div class="p-8 flex flex-col h-full">
+                        <div class="flex justify-between items-start mb-6">
+                            <h4 class="text-xl font-bold text-[#0e2a1d]">Newegg GPU Scraper</h4>
+                            <a href="https://github.com/santiagorocha07" target="_blank" class="text-[#2d5440] hover:text-[#0e2a1d] transition-colors ml-4 shrink-0" title="GitHub Repository">
+                                <i class="fab fa-github text-xl"></i>
+                            </a>
                         </div>
-                        <h4 class="text-2xl font-bold text-[#0e2a1d] mb-3 group-hover:text-[#1c5e39] transition-colors">Newegg GPU Scraper</h4>
-                        <p class="text-[#2d5440] text-[0.95rem] mb-6 flex-1 font-normal leading-relaxed">
-                            Advanced Web Scraping utility to track the Graphics Card market on Newegg. Executed via terminal, it automatically discovers multiple pages, extracts names and prices (Regex and <strong>BeautifulSoup4</strong>) and lists components sorted by price.
+                        <p class="text-[#2d5440] text-sm mb-6 flex-1 leading-relaxed">
+                            Terminal-based scraper that tracks the GPU market on Newegg. Discovers multiple pages automatically, extracts names and prices with <strong>Regex</strong> and <strong>BeautifulSoup4</strong>, and outputs components sorted by price.
                         </p>
                         <div class="flex flex-wrap gap-2 text-xs font-mono text-[#0e2a1d] mt-auto">
-                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded-md font-medium">Python</span>
-                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded-md font-medium">BS4</span>
-                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded-md font-medium">Regex</span>
+                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded font-medium">Python</span>
+                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded font-medium">BS4</span>
+                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded font-medium">Regex</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 3 -->
-                <div class="glass rounded-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col h-full group border border-[#113824]/15 hover:border-[#1c5e39]/50 hover:shadow-xl relative overflow-hidden">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-transparent via-[#1c5e39] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div class="p-8 flex flex-col h-full z-10">
-                        <div class="flex justify-between items-center mb-6">
-                            <div class="p-3.5 bg-[#e1efe5] rounded-xl border border-[#badbc4] text-[#1c5e39]">
-                                <i class="fas fa-gamepad text-2xl"></i>
-                            </div>
-                            <a href="https://github.com/santiagorocha07" target="_blank" class="text-[#2d5440] hover:text-[#0e2a1d] transition-colors" title="GitHub Repository"><i class="fab fa-github text-2xl"></i></a>
+                <div class="card rounded-2xl flex flex-col h-full">
+                    <div class="p-8 flex flex-col h-full">
+                        <div class="flex justify-between items-start mb-6">
+                            <h4 class="text-xl font-bold text-[#0e2a1d]">Scrabble Game Engine</h4>
+                            <a href="https://github.com/santiagorocha07" target="_blank" class="text-[#2d5440] hover:text-[#0e2a1d] transition-colors ml-4 shrink-0" title="GitHub Repository">
+                                <i class="fab fa-github text-xl"></i>
+                            </a>
                         </div>
-                        <h4 class="text-2xl font-bold text-[#0e2a1d] mb-3 group-hover:text-[#1c5e39] transition-colors">Scrabble Game Engine</h4>
-                        <p class="text-[#2d5440] text-[0.95rem] mb-6 flex-1 font-normal leading-relaxed">
-                            An academic project focused on the fundamentals of modern programming. I built the entire logic, state, and mechanics of classic Scrabble from scratch, including dictionary move validation matching strong structured programming principles.
+                        <p class="text-[#2d5440] text-sm mb-6 flex-1 leading-relaxed">
+                            Full game logic for Scrabble built from scratch in Python. Covers board state, move validation against a dictionary, and scoring — all following structured programming principles.
                         </p>
                         <div class="flex flex-wrap gap-2 text-xs font-mono text-[#0e2a1d] mt-auto">
-                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded-md font-medium">Python</span>
-                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded-md font-medium">Algorithms</span>
+                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded font-medium">Python</span>
+                            <span class="px-2.5 py-1 bg-[#e3f0e7] border border-[#bed8c5] rounded font-medium">Algorithms</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Education & Experience Section -->
-        <section id="education" class="py-24">
-             <div class="flex items-center gap-4 mb-16">
+        <section id="education" class="py-20">
+             <div class="flex items-center gap-4 mb-14">
                 <span class="text-[#1c5e39] font-mono text-xl font-bold">04.</span>
                 <h3 class="text-3xl font-bold text-[#0e2a1d]">Education & Experience</h3>
                 <div class="h-px bg-[#113824]/20 flex-1 ml-2 max-w-[20rem]"></div>
             </div>
 
-            <!-- Timeline -->
             <div class="space-y-8 relative pl-8 md:pl-0">
-                <!-- Timeline Center Line -->
                 <div class="hidden md:block absolute left-[50%] top-0 bottom-0 w-0.5 bg-[#bed8c5] -translate-x-1/2"></div>
                 
-                <!-- Timeline Item 1: SINFO -->
                 <div class="relative flex flex-col md:flex-row justify-between items-center w-full group">
-                    <!-- Left empty/date area -->
                     <div class="hidden md:block w-5/12 text-right pr-12">
                         <span class="inline-block px-4 py-2 bg-[#e1efe5] text-[#0e2a1d] font-bold font-mono text-sm rounded-full border border-[#badbc4]">
                             2025 – Present
                         </span>
                     </div>
                     
-                    <!-- Center Dot -->
-                    <div class="absolute -left-9.25 md:left-[50%] w-5 h-5 rounded-full bg-[#0e2a1d] border-4 border-[#e1efe5] md:-translate-x-1/2 z-10 shadow-md group-hover:scale-125 transition-transform duration-300"></div>
+                    <div class="absolute -left-9.25 md:left-[50%] w-5 h-5 rounded-full bg-[#0e2a1d] border-4 border-[#e1efe5] md:-translate-x-1/2 z-10 shadow-md"></div>
                     
-                    <!-- Content Card -->
-                    <div class="w-full md:w-5/12 ml-0 md:ml-12 glass p-8 rounded-2xl hover:bg-white/95 transition-all border border-[#113824]/15 border-l-4 border-l-[#1c5e39]">
+                    <div class="w-full md:w-5/12 ml-0 md:ml-12 card p-8 rounded-2xl border-l-4 border-l-[#1c5e39]">
                         <span class="block md:hidden text-[#1c5e39] font-bold font-mono text-sm mb-3">2025 – Present</span>
                         <div class="inline-block px-2.5 py-0.5 rounded bg-[#dbeee0] text-[#0e2a1d] font-mono text-xs font-bold uppercase mb-2">Software Development</div>
                         <h4 class="text-xl font-bold text-[#0e2a1d] mb-1">Software Developer</h4>
                         <a href="https://sinfo.org" target="_blank" class="text-base text-[#1c5e39] font-semibold hover:underline inline-block mb-3">
                             SINFO - Semana de Informática (IST) <i class="fas fa-external-link-alt text-xs ml-1 opacity-70"></i>
                         </a>
-                        <p class="text-[#2d5440] text-sm font-normal leading-relaxed">
-                            Working in the Software Development department at SINFO, building and maintaining web platforms, internal tooling, and digital services powering one of Europe's largest free tech conferences.
+                        <p class="text-[#2d5440] text-sm leading-relaxed">
+                            Building and maintaining web platforms, internal tooling, and digital services for one of Europe's largest free tech conferences.
                         </p>
                     </div>
                 </div>
 
-                <!-- Timeline Item 2: IST Degree -->
                 <div class="relative flex flex-col md:flex-row-reverse justify-between items-center w-full group pt-8">
-                    <!-- Right empty/date area -->
                     <div class="hidden md:block w-5/12 text-left pl-12">
                         <span class="inline-block px-4 py-2 bg-[#e1efe5] text-[#0e2a1d] font-bold font-mono text-sm rounded-full border border-[#badbc4]">
                             September 2025 – Present
                         </span>
                     </div>
                     
-                    <!-- Center Dot -->
-                    <div class="absolute -left-9.25 md:left-[50%] w-5 h-5 rounded-full bg-[#0e2a1d] border-4 border-[#e1efe5] md:-translate-x-1/2 z-10 shadow-md group-hover:scale-125 transition-transform duration-300"></div>
+                    <div class="absolute -left-9.25 md:left-[50%] w-5 h-5 rounded-full bg-[#0e2a1d] border-4 border-[#e1efe5] md:-translate-x-1/2 z-10 shadow-md"></div>
                     
-                    <!-- Content Card -->
-                    <div class="w-full md:w-5/12 mr-0 md:mr-12 glass p-8 rounded-2xl hover:bg-white/95 transition-all border border-[#113824]/15 border-l-4 border-l-[#1c5e39]">
+                    <div class="w-full md:w-5/12 mr-0 md:mr-12 card p-8 rounded-2xl border-l-4 border-l-[#1c5e39]">
                         <span class="block md:hidden text-[#1c5e39] font-bold font-mono text-sm mb-3">September 2025 – Present</span>
                         <div class="inline-block px-2.5 py-0.5 rounded bg-[#dbeee0] text-[#0e2a1d] font-mono text-xs font-bold uppercase mb-2">Academic Degree</div>
                         <h4 class="text-xl font-bold text-[#0e2a1d] mb-1">BSc in Software Engineering</h4>
                         <a href="https://tecnico.ulisboa.pt/en/" target="_blank" class="text-base text-[#1c5e39] font-semibold hover:underline inline-block mb-3">
                             Instituto Superior Técnico (IST), Lisbon <i class="fas fa-external-link-alt text-xs ml-1 opacity-70"></i>
                         </a>
-                        <p class="text-[#2d5440] text-sm font-normal leading-relaxed">
-                            A solid academic foundation covering computational mathematics, systems architecture, design methodologies, algorithms, and software engineering principles.
+                        <p class="text-[#2d5440] text-sm leading-relaxed">
+                            Covering computational mathematics, systems architecture, algorithms, and software engineering principles.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Hobbies Section (New Section) -->
-        <section id="hobbies" class="py-24">
-            <div class="flex items-center gap-4 mb-8">
+        <section id="hobbies" class="py-20">
+            <div class="flex items-center gap-4 mb-10">
                 <span class="text-[#1c5e39] font-mono text-xl font-bold">05.</span>
                 <h3 class="text-3xl font-bold text-[#0e2a1d]">Hobbies & Interests</h3>
                 <div class="h-px bg-[#113824]/20 flex-1 ml-2 max-w-xs"></div>
             </div>
 
-            <p class="text-[#2d5440] text-lg max-w-2xl mb-10 font-normal leading-relaxed">
-                When I'm not coding or working with systems, you'll find me playing guitar, exploring music, or training at the gym.
+            <p class="text-[#2d5440] text-lg max-w-2xl mb-10 leading-relaxed">
+                When I'm not at the computer, I play guitar, listen to a lot of music, and train at the gym.
             </p>
 
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-                <!-- Hobby 1: Playing Guitar -->
-                <div class="glass p-7 rounded-2xl border border-[#113824]/15 hover:border-[#1c5e39]/40 hover:-translate-y-1.5 transition-all group">
-                    <div class="w-14 h-14 rounded-2xl bg-[#e1efe5] border border-[#badbc4] text-[#1c5e39] flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition-transform">
-                        <i class="fas fa-guitar"></i>
-                    </div>
-                    <h4 class="text-xl font-bold text-[#0e2a1d] mb-2 group-hover:text-[#1c5e39] transition-colors">Playing Guitar</h4>
-                    <p class="text-[#2d5440] text-sm leading-relaxed font-normal">
-                        Playing acoustic and electric guitar helps me relax during stressed times
+            <div class="grid sm:grid-cols-3 gap-6">
+                <div class="card p-6 rounded-2xl">
+                    <h4 class="text-lg font-bold text-[#0e2a1d] mb-2">Playing Guitar</h4>
+                    <p class="text-[#2d5440] text-sm leading-relaxed">
+                        Acoustic and electric. Good way to step away from the screen and reset.
                     </p>
                 </div>
 
-                <!-- Hobby 2: Music -->
-                <div class="glass p-7 rounded-2xl border border-[#113824]/15 hover:border-[#1c5e39]/40 hover:-translate-y-1.5 transition-all group">
-                    <div class="w-14 h-14 rounded-2xl bg-[#e1efe5] border border-[#badbc4] text-[#1c5e39] flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition-transform">
-                        <i class="fas fa-music"></i>
-                    </div>
-                    <h4 class="text-xl font-bold text-[#0e2a1d] mb-2 group-hover:text-[#1c5e39] transition-colors">Music</h4>
-                    <p class="text-[#2d5440] text-sm leading-relaxed font-normal">
-                        Listening to diverse styles and genres, finding focus and creativity in everyday playlists.
+                <div class="card p-6 rounded-2xl">
+                    <h4 class="text-lg font-bold text-[#0e2a1d] mb-2">Music</h4>
+                    <p class="text-[#2d5440] text-sm leading-relaxed">
+                        Diverse styles and genres — music is always running in the background when I work.
                     </p>
                 </div>
 
-                <!-- Hobby 3: Gym -->
-                <div class="glass p-7 rounded-2xl border border-[#113824]/15 hover:border-[#1c5e39]/40 hover:-translate-y-1.5 transition-all group sm:col-span-2 md:col-span-1">
-                    <div class="w-14 h-14 rounded-2xl bg-[#e1efe5] border border-[#badbc4] text-[#1c5e39] flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition-transform">
-                        <i class="fas fa-dumbbell"></i>
-                    </div>
-                    <h4 class="text-xl font-bold text-[#0e2a1d] mb-2 group-hover:text-[#1c5e39] transition-colors">Gym</h4>
-                    <p class="text-[#2d5440] text-sm leading-relaxed font-normal">
-                        Consistent training and workout sessions to keep physical health, mental focus, and discipline sharp.
+                <div class="card p-6 rounded-2xl">
+                    <h4 class="text-lg font-bold text-[#0e2a1d] mb-2">Gym</h4>
+                    <p class="text-[#2d5440] text-sm leading-relaxed">
+                        Consistent training to keep focus and discipline sharp outside of work.
                     </p>
                 </div>
             </div>
         </section>
 
-        <!-- Footer / Contact -->
-        <section id="contact" class="py-32 flex flex-col items-center justify-center text-center">
+        <section id="contact" class="py-28 flex flex-col items-center justify-center text-center">
             <p class="text-[#1c5e39] font-mono text-sm mb-4 tracking-widest uppercase font-semibold">06. What's Next?</p>
-            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0e2a1d] mb-6 drop-shadow-xs">Get In Touch</h2>
-            <p class="text-[#2d5440] max-w-xl mx-auto mb-10 text-lg font-normal leading-relaxed">
-                Currently balancing my studies at IST and my software development work at SINFO, my inbox is always open. Whether you have a question, want to collaborate, discuss tech, or just say hi, I'll be glad to connect!
+            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0e2a1d] mb-6">Get In Touch</h2>
+            <p class="text-[#2d5440] max-w-xl mx-auto mb-10 text-lg leading-relaxed">
+                Currently studying at IST and working at SINFO. My inbox is open — whether you want to collaborate, discuss a project, or just say hello.
             </p>
             
-            <a href="mailto:santiagoarocha07@gmail.com" class="inline-block px-10 py-5 bg-[#0e2a1d] text-white rounded-4xl font-bold text-lg transition-all shadow-md hover:bg-[#1c5e39] hover:shadow-lg hover:-translate-y-1">
+            <a href="mailto:santiagoarocha07@gmail.com" class="inline-block px-10 py-5 bg-[#0e2a1d] text-white rounded-full font-bold text-lg transition-colors shadow-sm hover:bg-[#1c5e39]">
                 Say Hello <i class="fas fa-paper-plane ml-2"></i>
             </a>
 
-            <div class="mt-20 flex justify-center gap-6 text-2xl text-[#2d5440]">
-                <a href="https://www.linkedin.com/in/santiago-rocha-37779a3a1/" target="_blank" class="p-3.5 bg-[#e1efe5] border border-[#badbc4] rounded-full hover:bg-[#0e2a1d] hover:text-white transition-all hover:-translate-y-1" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/santiagorocha07" target="_blank" class="p-3.5 bg-[#e1efe5] border border-[#badbc4] rounded-full hover:bg-[#0e2a1d] hover:text-white transition-all hover:-translate-y-1" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="mailto:santiagoarocha07@gmail.com" class="p-3.5 bg-[#e1efe5] border border-[#badbc4] rounded-full hover:bg-[#0e2a1d] hover:text-white transition-all hover:-translate-y-1" title="santiagoarocha07@gmail.com"><i class="fas fa-envelope"></i></a>
-                <a href="tel:916967806" class="p-3.5 bg-[#e1efe5] border border-[#badbc4] rounded-full hover:bg-[#0e2a1d] hover:text-white transition-all hover:-translate-y-1" title="916967806"><i class="fas fa-phone"></i></a>
+            <div class="mt-16 flex justify-center gap-4 text-2xl text-[#2d5440]">
+                <a href="https://www.linkedin.com/in/santiago-rocha-37779a3a1/" target="_blank" class="p-3.5 bg-[#e1efe5] border border-[#badbc4] rounded-full hover:bg-[#0e2a1d] hover:text-white transition-colors" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/santiagorocha07" target="_blank" class="p-3.5 bg-[#e1efe5] border border-[#badbc4] rounded-full hover:bg-[#0e2a1d] hover:text-white transition-colors" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:santiagoarocha07@gmail.com" class="p-3.5 bg-[#e1efe5] border border-[#badbc4] rounded-full hover:bg-[#0e2a1d] hover:text-white transition-colors" title="santiagoarocha07@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="tel:916967806" class="p-3.5 bg-[#e1efe5] border border-[#badbc4] rounded-full hover:bg-[#0e2a1d] hover:text-white transition-colors" title="916967806"><i class="fas fa-phone"></i></a>
             </div>
             
-            <div class="mt-16 text-center group">
+            <div class="mt-14 text-center">
                 <a href="https://github.com/santiagorocha07" target="_blank" class="text-sm text-[#3e6a51] font-mono tracking-tight hover:text-[#0e2a1d] font-semibold transition-colors">
-                    Designed & Developed by Santiago Rocha<br>
+                    Designed & Developed by Santiago Rocha
                 </a>
             </div>
         </section>
 
     </main>
-    <!-- Simple JS Script for Smooth Scrolling & Fallback -->
     <script src="index.js"></script>
 </body>
 </html>
